@@ -91,7 +91,7 @@
         </p>
         <div class="w3-row">
           <div class="w3-col m8 s12">
-            <p><button id="post1" class="w3-button w3-padding-large w3-white w3-border" onClick="ShowDetails(this)"><b>SEE MORE ></b></button></p>
+            <p><button id="post1-btn" class="w3-button w3-padding-large w3-white w3-border" onClick="ShowDetails('post1')"><b>SEE MORE ></b></button></p>
           </div>
         </div>
       </div>
@@ -145,19 +145,7 @@
 
 
 <script src="../../js/navbar.js"></script>
-<script>
-  function ShowDetails(element) {
-    var content = document.getElementById(element.id + "-content");
-    if (content.style.display == "none"){
-      content.style.display = "block";
-      element.innerHTML  = "<b>< SEE LESS</b>";
-    }
-    else{
-      content.style.display = "none";
-      element.innerHTML  = "<b>SEE MORE ></b>";
-    }
-  }
-</script>
+<script src="../../js/seemore.js"></script>
 
 
 
