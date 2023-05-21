@@ -13,21 +13,21 @@ body, html {
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* First image (Logo. Full height) */ /* TODO : image for HOME */
 .bgimg-1 {
-  background-image: url('../assets/img/DSC_0145.jpg');
+  background-image: url('../assets/img/P1001912-3.jpg');
   min-height: 100%;
 }
 
-/* Second image (Portfolio) */
+/* Second image (Work) */ /* TODO : image for work */
 .bgimg-2 {
   background-image: url("../assets/img/DSC_0009.jpg");
   min-height: 400px;
 }
 
-/* Third image (Contact) */
+/* Third image (Contact) */ /* TODO : image for contact */
 .bgimg-3 {
-  background-image: url("../assets/img/DSC_0596.jpg");
+  background-image: url("../assets/img/P1001918-2.jpg");
   min-height: 400px;
 }
 

@@ -1,3 +1,5 @@
+<!-- TODO : version francaise + detection langue + cookie langue + description "about" + panel modal for hobbies & work + descrition "work" + formulaire -->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -33,8 +35,8 @@
   </div>
 </div>
 
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<!-- First Parallax Image with Logo Text  w3-opacity-min-->
+<div class="bgimg-1 w3-display-container" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <img src="./assets/img/logo.png" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
   </div>
@@ -50,54 +52,134 @@
       <img src="./assets/img/cv-profil.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
     </div>
 
-    <div class="w3-col m6 w3-padding-large">
+    <div class="w3-col m6 w3-padding-large"> <!-- TODO : description-->
       <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
+  <br>
+  <p class="w3-center"><em>Here are some of my hobbies.<br> Click on the images to make them bigger</em></p>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3 w3-padding w3-display-container">
+      <img src="./assets/img/DSC_0596.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Hiking">
+      <p>Hiking</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding w3-display-container">
+      <img src="./assets/img/DSC_0130.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Travel">
+      <p>Travel</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding w3-display-container">
+      <img src="./assets/img/motocycle.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Motorcycle">
+      <p>Motorcycle</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding w3-display-container">
+      <img src="./assets/img/G0066532.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Parachute">
+      <p>Parachute</p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3 w3-padding w3-display-container">
+      <img src="./assets/img/paragliding.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Paragliding">
+      <p>Paragliding</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding w3-display-container">
+      <img src="./assets/img/diving.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Diving">
+      <p>Diving</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding w3-display-container">
+      <img src="./assets/img/DSC_0055.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Audio-Visual">
+      <p>Audio-Visual</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding w3-display-container">
+      <img src="./assets/img/2016-04-14 13.11.06.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Origami & Kirigami">
+      <p>Origami & Kirigami</p>
+    </div>
+  </div>
 </div>
 
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+<!-- Second Parallax Image with Portfolio Text  w3-opacity-min -->
+<div class="bgimg-2 w3-display-container">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">MY WORK</span>
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48" fill="none" ><rect width="12" height="12" fill="white" fill-opacity="0.01"/><path d="M5 16H43C43.5523 16 44 16.4477 44 17V39C44 39.5523 43.5523 40 43 40H30L24.0083 34.0013L18 40H5C4.44772 40 4 39.5523 4 39V17C4 16.4477 4.44772 16 5 16Z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><path d="M14 32C16.2091 32 18 30.2091 18 28C18 25.7909 16.2091 24 14 24C11.7909 24 10 25.7909 10 28C10 30.2091 11.7909 32 14 32Z" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M34 32C36.2091 32 38 30.2091 38 28C38 25.7909 36.2091 24 34 24C31.7909 24 30 25.7909 30 28C30 30.2091 31.7909 32 34 32Z" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M6 10H42H6Z" fill="none"/><path d="M6 10H42" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span><br> 
+    Réalité Virtuelle
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-augmented-reality" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 8v-2a2 2 0 0 1 2 -2h2" /> <path d="M4 16v2a2 2 0 0 0 2 2h2" /> <path d="M16 4h2a2 2 0 0 1 2 2v2" /> <path d="M16 20h2a2 2 0 0 0 2 -2v-2" /> <path d="M12 12.5l4 -2.5" /> <path d="M8 10l4 2.5v4.5l4 -2.5v-4.5l-4 -2.5z" /> <path d="M8 10v4.5l4 2.5" /> </svg>
+    </span><br>
+    Réalité augmentée
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">
+      <i class="fa fa-cubes"></i>
+    </span><br>
+    Simulation 3D
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">
+      <i class="fa fa-gamepad"></i>
+    </span><br>
+    Jeu sérieux 2D/3D/360
+  </div>
+</div>
+
+<!-- Container (Work Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <p class="w3-center"><em>Here are some of my latest personal work.<br> Click on the images to make them bigger</em></p><br>
+  <h3 class="w3-center">WHAT DO I DO ?</h3>
+  <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+  <p class="w3-center w3-padding"><em>Here are some of my latest personal work.<br> Click on the images to make them bigger</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
+    <div class="w3-col m3 w3-padding">
       <img src="./assets/img/logo_background.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Escape game VR">
       <div class="w3-light-grey">
         <!--<div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:1%">1%</div>-->
         <div class="w3-container w3-padding-xsmall w3-light-grey w3-center" style="width:100%">0%</div>
       </div>
+      <p>Escape game VR</p>
     </div>
 
-    <div class="w3-col m3">
+    <div class="w3-col m3 w3-padding">
       <img src="./assets/img/logo_background.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Le Bonimenteur">
       <div class="w3-light-grey">
         <div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:90%">90%</div>
       </div>
+      <p>Le Bonimenteur</p>
     </div>
 
-    <div class="w3-col m3">
+    <div class="w3-col m3 w3-padding">
       <img src="./assets/img/logo_background.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Bowling VR">
       <div class="w3-light-grey">
         <div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:75%">75%</div>
       </div>
+      <p>Bowling VR</p>
     </div>
 
-    <div class="w3-col m3">
+    <div class="w3-col m3 w3-padding">
       <img src="./assets/img/logo_background.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Guess objects color in VR">
       <div class="w3-light-grey">
         <div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:100%">100%</div>
       </div>
+      <p>Guess objects color in VR</p>
     </div>
   </div>
 <!--
@@ -118,8 +200,8 @@
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<!-- Third Parallax Image with Portfolio Text  w3-opacity-min-->
+<div class="bgimg-3 w3-display-container">
   <div class="w3-display-middle">
      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   </div>
@@ -131,7 +213,7 @@
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="./assets/img/DSC_0060.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="./assets/img/AMU 3D (2).JPG" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
@@ -164,7 +246,6 @@
   <div class="w3-xlarge w3-section">
     <a href="https://www.linkedin.com/in/manon-vessiot-b5a054153/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
     <a href="https://github.com/ManonVessiot" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <a href="https://gitlab.com/Monixe" target="_blank"><i class="fa fa-gitlab w3-hover-opacity"></i></a>
   </div>
   <p></p>
 </footer>
