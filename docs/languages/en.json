@@ -33,6 +33,52 @@
     "subtitle_contact": "I'd love your feedback!",
     "conclusion_contact": "Swing by for a cup of <i class=\"fa fa-coffee\"></i>, or leave me a note.",
     "SendMessage_contact": "Send message",
-    "footer": "To the top"
+    "footer": "To the top",
+
+    "resume_job": "Computer engineer",
+    "resume_birthdate": "June 1, 1998",
+    "resume_driving": "Driving license B",
+    "resume_socialnetwork": "Social networks",
+    "resume_skills": "Skills",
+    "resume_prog": "Programming languages :",
+    "resume_soft": "Software and tools :",
+    "resume_plt": "Platforms :",
+    "resume_pltcontent": "PC, Web, Android/iOS, VR/AR headset",
+    "resume_lang": "Languages",
+    "resume_lang1": "French : Native language",
+    "resume_lang2": "English : Read, speak, write (TOEIC 2018 : 855)",
+    "resume_hobbies": "Hobbies",
+    "resume_hobbiescontent": "Hiking, Travel, Motorcycle, Parachute, Paragliding, Diving, Audio-Visual, Tennis, Archery, Origami, Kirigami, Video games",
+
+    "resume_work_title": "Work Experience",
+    "resume_work1_title": "Software engineer at Aix-Marseille Université/ISM-CRVM",
+    "resume_work1_dates": "March 2021 - <span class=\"w3-tag w3-indigo w3-round\">Current</span>",
+    "resume_work1_description": "Principal engineer on the Aix-Marseille University platforms project, the aim of which is to increase the visibility and attractiveness of the platforms. Implementation of a website and a search tool, as well as 360 shots and the creation of virtual tours for the platforms. Development of innovative, original and varied interactive content (2D, 3D, 360 Photo/Video, Vuforia), intended to be deployed on several platforms (web, Android/iOS, WebGL, VR/AR headset).",
+    "resume_work2_title": "C# Developer Intern / Centre de Réalité Virtuelle de la Méditerranée",
+    "resume_work2_dates": "February 2020 - July 2020",
+    "resume_work2_description": "Development and Deployment on the different stores, of an augmented reality Android/iOS application, with Vuforia, for a technological opening. Development of a system of behaviors and facial expressions for avatars.",
+    "resume_work3_title": "C# Developer Intern / Centre de Réalité Virtuelle de la Méditerranée",
+    "resume_work3_dates": "June 2019 - July 2019",
+    "resume_work3_description": "Development of Navigation and Interaction modules for Virtual Reality headset.",
+
+    "resume_projects_title": "Projects",
+    "resume_projects1_title": "The Bonimenteur",
+    "resume_projects1_dates": "2021",
+    "resume_projects1_description": "Creation of an entertainment application with Unity3D. Design and development of the application, with SQL database management.",
+    "resume_projects2_title": "Bowling and Colors in Virtual Reality",
+    "resume_projects2_dates": "2019",
+    "resume_projects2_description": "Modeling and development of 2 demonstration applications for the French Computer Graphics and Virtual Reality Days 2019, for Virtual Reality headsets: A bowling game as well as a playful application on colors and light.",
+    
+    "resume_education_title": "Education",
+    "resume_education1_title": "IT engineer at Aix-Marseille University – Polytech, Marseille",
+    "resume_education1_dates": "2017 - 2020",
+    "resume_education1_description": "Training as a computer engineer specializing in Virtual and Augmented Reality, graduated major.",
+    "resume_education2_title": "International Summer School : 2018 Innovative ICT at Xidian University, China",
+    "resume_education2_dates": "July 2018",
+    "resume_education2_description": "International summer training on information and communication technologies between July 22 and 31",
+    "resume_education3_title": "Preparatory class at Alphonse Daudet High School, Nimes",
+    "resume_education3_dates": "2015 - 2017",
+    "resume_education3_description": "Training, specializing in Mathematics, aimed at preparing for competitive entrance examinations to the Grandes Ecoles."
+
   }
   

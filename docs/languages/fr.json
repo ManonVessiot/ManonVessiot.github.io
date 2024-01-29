@@ -33,6 +33,52 @@
     "subtitle_contact": "J'adorerais avoir vos retours !",
     "conclusion_contact": "Passez prendre une tasse de <i class=\"fa fa-coffee\"></i>, ou laissez-moi un message.",
     "SendMessage_contact": "Envoyer un message",
-    "footer": "Retour en haut"
+    "footer": "Retour en haut",
+
+    "resume_job": "Ingénieure en informatique",
+    "resume_birthdate": "1er Juin 1998",
+    "resume_driving": "Permis B",
+    "resume_socialnetwork": "Réseaux sociaux",
+    "resume_skills": "Compétences",
+    "resume_prog": "Langages de programmation :",
+    "resume_soft": "Logiciels et outils :",
+    "resume_plt": "Plateformes :",
+    "resume_pltcontent": "PC, Web, Android/iOS, Casque RV/RA",
+    "resume_lang": "Langues",
+    "resume_lang1": "Français : Langue maternelle",
+    "resume_lang2": "Anglais : Lu, parlé, écris (TOEIC 2018 : 855)",
+    "resume_hobbies": "Loisirs",
+    "resume_hobbiescontent": "Randonnée, Voyage, Moto, Parachute, Parapente, Plongée, Audiovisuel, Tennis, Tir à l'arc, Origami, Kirigami, Jeux vidéo",
+
+    "resume_work_title": "Expérience professionnelle",
+    "resume_work1_title": "Ingénieur logiciel à Aix-Marseille Université/ISM-CRVM",
+    "resume_work1_dates": "Mars 2021 - <span class=\"w3-tag w3-indigo w3-round\">Current</span>",
+    "resume_work1_description": "Ingénieur principal du projet des plateformes d'Aix-Marseille Université dont le but est d'augmenter la visibilité et l'attractivité des plateformes. Mise en place d'un site internet et d'un outil de recherche, ainsi que de prises de vue 360 ​​et création de visites virtuelles pour les plateformes. Développement de contenus interactifs innovants, originaux et variés (2D, 3D, 360 Photo/Vidéo, Vuforia), destinés à être déployés sur plusieurs plateformes (web, Android/iOS, WebGL, casque RV/RA).",
+    "resume_work2_title": "Stagiaire Développeur C# / Centre de Réalité Virtuelle de la Méditerranée",
+    "resume_work2_dates": "Février 2020 - juillet 2020",
+    "resume_work2_description": "Développement et Déploiement sur les différents magasins, d'une application Android/iOS de réalité augmentée, avec Vuforia, pour un évènement technologique. Développement d'un système de comportements et d'expressions faciales pour les avatars.",
+    "resume_work3_title": "Stagiaire Développeur C# / Centre de Réalité Virtuelle de la Méditerranée",
+    "resume_work3_dates": "Juin 2019 - juillet 2019",
+    "resume_work3_description": "Développement de modules de navigation et d'interaction pour casque de réalité virtuelle.",
+
+    "resume_projects_title": "Projets",
+    "resume_projects1_title": "Le Bonimenteur",
+    "resume_projects1_dates": "2021",
+    "resume_projects1_description": "Création d'une application de divertissement avec Unity3D. Conception et développement de l'application, avec gestion de base de données SQL.",
+    "resume_projects2_title": "Bowling et couleurs en réalité virtuelle",
+    "resume_projects2_dates": "2019",
+    "resume_projects2_description": "Modélisation et développement de 2 applications de démonstration pour les Journées Françaises d'Informatique et de Réalité Virtuelle 2019, pour casques de Réalité Virtuelle : Un jeu de quilles ainsi qu'une application ludique sur les couleurs et la lumière.",
+    
+    "resume_education_title": "Éducation",
+    "resume_education1_title": "Ingénieur informatique à Aix-Marseille Université – Polytech, Marseille",
+    "resume_education1_dates": "2017 - 2020",
+    "resume_education1_description": "Formation d'ingénieur en informatique spécialisée en Réalité Virtuelle et Augmentée, major de promo.",
+    "resume_education2_title": "École d'été internationale : 2018 TIC innovantes à l'Université de Xidian, Chine",
+    "resume_education2_dates": "Juillet 2018",
+    "resume_education2_description": "Formation internationale d'été sur les technologies de l'information et de la communication entre le 22 et le 31 juillet",
+    "resume_education3_title": "Classe préparatoire au lycée Alphonse Daudet de Nîmes",
+    "resume_education3_dates": "2015 - 2017",
+    "resume_education3_description": "Formation, spécialisée en Mathématiques, visant à préparer aux concours d'entrée aux Grandes Ecoles."
+
   }
   
