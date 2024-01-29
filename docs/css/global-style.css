@@ -11,6 +11,10 @@ textarea { resize: vertical; }
     cursor: pointer;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 
 
 /* Create a Parallax Effect */

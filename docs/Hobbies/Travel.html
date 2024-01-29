@@ -34,6 +34,8 @@
     <a href="../index.html#about" class="w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-user"></i> ABOUT</a>
     <a href="../index.html#portfolio" class="w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-th"></i> MY WORK</a>
     <a href="../index.html#contact" class="w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('en')">EN</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -42,6 +44,8 @@
     <a href="../index.html#about" class="w3-bar-item w3-button w3-text-black" onclick="toggleFunction()">ABOUT</a>
     <a href="../index.html#portfolio" class="w3-bar-item w3-button w3-text-black" onclick="toggleFunction()">MY WORK</a>
     <a href="../index.html#contact" class="w3-bar-item w3-button w3-text-black" onclick="toggleFunction()">CONTACT</a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('en')">EN</a>
   </div>
 </div>
 
@@ -58,7 +62,7 @@
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">TRAVEL</h3>
+  <h3 class="w3-center" data-i18n="H_travel">TRAVEL</h3>
   <p class="w3-center"><em>Let's go to the other side of the world!</em></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
@@ -254,6 +258,7 @@
 
 <script src="../js/navbar.js"></script>
 <script src="../js/seemore.js"></script>
+<script src="../js/languages.js"></script>
 
 
 

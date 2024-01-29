@@ -1,0 +1,38 @@
+{
+    "nav_home": "Accueil",
+    "nav_about": "À propos",
+    "nav_work": "Mon travail",
+    "nav_contact": "Contact",
+
+    "title_about": "À propos de moi",
+    "subtitle_about": "Bienvenue dans le monde de réalité virtuelle et au-delà de Manon !",
+    "resume_about": "CV",
+    "description_about": "Je suis Manon, une <b class=\"w3-text-indigo\">ingénieure en informatique</b> spécialisée en <b class=\"w3-text-indigo\">RV</b> et <b class=\"w3-text-indigo\">RA</b>. Travaillant à l'<a href=\"https://www.univ-amu.fr/\" target=\"_blank\"><b class=\"w3-text-indigo\">Université d'Aix-Marseille</b></a> au Centre de réalité virtuelle de la Méditerranée (<a href=\"https://www.crvm.eu/\" target=\"_blank\"><b class=\"w3-text-indigo\">CRVM</b></a>), je crée des expériences captivantes sur différentes plateformes (<b class=\"w3-text-indigo\">web, smartphone, PC, et casques</b>). Des paysages immersifs aux avatars réalistes, je repousse les limites de la technologie pour transporter les utilisateurs dans des royaumes numériques extraordinaires.<br><br> La <b class=\"w3-text-indigo\">photographie </b> et la <b class=\"w3-text-indigo\">vidéographie </b> sont mes passions, capturant la beauté du monde et racontant des histoires captivantes. Lorsque je ne suis pas immergé dans les pixels, je me lance dans des aventures exaltantes de <b class=\"w3-text-indigo\">randonnée</b>, m'inspirant de la sérénité de la nature. <b class=\"w3-text-indigo\">Voyager</b> élargit mes horizons et insuffle de l'authenticité à mon travail.<br><br> Des <b class=\"w3-text-indigo\">sports</b> comme le <b class=\"w3-text-indigo\">parachutisme</b> et le <b class=\"w3-text-indigo\">parapente</b> procurent une montée d'adrénaline, me rappelant le frisson de briser les frontières. Les <b class=\"w3-text-indigo\">jeux vidéo</b> et les <b class=\"w3-text-indigo\"> films</b> nourrissent mon imagination et influencent mes efforts créatifs.",
+    "conclusion_about": "Rejoignez-moi pour explorer les possibilités illimitées de la réalité virtuelle, célébrer les arts visuels et embarquer dans des aventures palpitantes.<br><b class=\"w3-text-indigo\">Bienvenue dans mon monde !</b>",
+    "hobbies_intro": "Voici quelques-uns de mes passe-temps.<br>Cliquez sur les images pour plus de détails.",
+    "H_hiking": "Randonnée",
+    "H_travel": "Voyage",
+    "H_motocycle": "Moto",
+    "H_parachute": "Parachute",
+    "H_paragliding": "Parapente",
+    "H_diving": "Plongée",
+    "H_audiovisual": "Audio-Visuel",
+    "H_origamikirigami": "Origami & Kirigami",
+    
+    "title_work": "Mon travail",
+    "work1": "Réalité virtuelle",
+    "work2": "Réalité augmentée",
+    "work3": "simulateur 3D",
+    "work4": "Jeu sérieux 2D/3D/360",
+    "subtitle_work": "Que fais-je ?",
+    "description_work": "En tant qu'ingénieure en informaticien spécialisé en RV et RA, mon travail consiste à utiliser une technologie de pointe, à concevoir des expériences immersives, à développer des applications sur plusieurs plateformes et à repousser les limites de ce qui est possible en réalité virtuelle et augmentée. Je m'efforce de créer des expériences mémorables et transformatrices qui captivent les utilisateurs et façonnent l'avenir de ce domaine en évolution rapide.",
+    "conclusion_work": "Voici quelques-uns de mes derniers travaux personnels.<br>Cliquez sur les images pour plus de détails.",
+    "seemore_work": "Voir plus",
+    
+    "title_contact": "Contact",
+    "subtitle_contact": "J'adorerais avoir vos retours !",
+    "conclusion_contact": "Passez prendre une tasse de <i class=\"fa fa-coffee\"></i>, ou laissez-moi un message.",
+    "SendMessage_contact": "Envoyer un message",
+    "footer": "Retour en haut"
+  }
+  
