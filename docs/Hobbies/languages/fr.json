@@ -64,6 +64,22 @@
 
 
     "H_paragliding": "Parapente",
+    "paragliding_subtitle": "Allons voler !",
+    "paragliding_description": "Bienvenue dans le monde exaltant du parapente ! Rejoignez-moi alors que je m'envole dans les cieux, capturant la liberté et le frisson de ce sport incroyable. Poursuivons l'adrénaline, assistons à des vues à couper le souffle et expérimentons la joie de défier la gravité. Bienvenue dans mon monde d'aventure aéroportée !",
+    "paragliding_conclusion": "Voici quelques-uns de mes vols récents.",
+
+    "paragliding_post2_title": "PREMIER VOL SOLO",
+    "paragliding_post2_infos": "Décollage de Cuges-les-Pins,",
+    "paragliding_post2_date": "21 janvier 2024",
+    "paragliding_post2_description": "C'est ça ! J'ai effectué mon premier grand vol en parapente. Guidé par radio, j'ai décollé, piloté et atterri. En l’espace d’une journée et demie d’entraînement j’ai pu voler seul. Je pensais que c'était le but, la fin que je voulais atteindre... J'avais complètement tort. Seulement 2 jours plus tard, j'étais de retour avec 3 vols supplémentaires. En fait, ce n’était que le début !",
+
+    "paragliding_post1_title": "PREMIER VOL",
+    "paragliding_post1_infos": "Chamonix vu d'en haut,",
+    "paragliding_post1_date": "26 février 2022",
+    "paragliding_post1_description": "Techniquement, ce n'est pas mon vol inaugural. Cependant, toutes les expériences précédentes ne sont rien en comparaison de celle que je viens de vivre ! La vue de là-haut était absolument époustouflante. Non seulement j’ai eu la chance de piloter l’avion, mais je me suis également livré à des manœuvres de voltige exaltantes. La montée d'adrénaline pendant le vol et la montée d'excitation qui a suivi ont été deux moments que j'aspire à revivre à plusieurs reprises. Même si j'ai eu un moment de nausée par la suite, avec l'impression que mes entrailles étaient sur le point de faire une apparition indésirable, j'ai toujours envie de cette sensation !",
+
+
+
     "H_diving": "Plongée",
     "H_audiovisual": "Audio-Visuel",
     "H_origamikirigami": "Origami & Kirigami",
