@@ -4,13 +4,24 @@
     "nav_work": "My work",
     "nav_contact": "Contact",
 
-    "title_about": "About me",
-    "subtitle_about": "Welcome to Manon's World of Virtual Reality and Beyond!",
-    "resume_about": "Resume",
-    "description_about": "I'm Manon, a <b class=\"w3-text-indigo\">computer engineer</b> specializing in <b class=\"w3-text-indigo\">VR</b> and <b class=\"w3-text-indigo\">AR</b>. Working at the <a href=\"https://www.univ-amu.fr/\" target=\"_blank\"><b class=\"w3-text-indigo\">University of Aix-Marseille</b></a> in the virtual reality center of the Mediterranean (<a href=\"https://www.crvm.eu/\" target=\"_blank\"><b class=\"w3-text-indigo\">CRVM</b></a>), I create captivating experiences across <b class=\"w3-text-indigo\">web, mobile, desktop, and headsets</b>. From immersive landscapes to lifelike avatars, I push the boundaries of technology to transport users into extraordinary digital realms.<br><br><b class=\"w3-text-indigo\">Photography</b> and <b class=\"w3-text-indigo\">videography</b> are my passions, capturing the beauty of the world and telling compelling stories. When not immersed in pixels, I embark on exhilarating <b class=\"w3-text-indigo\">hiking</b> adventures, finding inspiration in nature's serenity. <b class=\"w3-text-indigo\">Traveling</b> broadens my horizons, infusing authenticity into my work.<br><br><b class=\"w3-text-indigo\">Sports</b> like <b class=\"w3-text-indigo\">parachuting</b> and <b class=\"w3-text-indigo\">paragliding</b> provide an adrenaline rush, reminding me of the thrill of breaking boundaries. <b class=\"w3-text-indigo\">Video games</b> and <b class=\"w3-text-indigo\">movies</b> fuel my imagination, influencing my creative endeavors.",
-    "conclusion_about": "Join me as we explore the boundless possibilities of virtual reality, celebrate visual arts, and embark on thrilling adventures.<br><b class=\"w3-text-indigo\">Welcome to my world!</b>",
-    "hobbies_intro": "Here are some of my hobbies.<br> Click on the images for more details.",
     "H_hiking": "Hiking",
+    "hiking_subtitle": "Let's go on an adventure!",
+    "hiking_description": "Welcome to my hiking adventures! Join me as I explore the great outdoors, capturing its beauty through photos and brief descriptions. From serene forests to majestic summits, each hike offers a unique experience. I'll share glimpses of the routes, notable landmarks, and lasting impressions. Through vibrant images and concise narratives, I hope to convey the essence of each journey. Hiking teaches me resilience, patience, and the joy of simple pleasures. Nature's beauty inspires and rejuvenates, and I invite you to experience it with me. Let's embark on virtual journeys, celebrating the wonders of our planet and discovering hidden treasures off the beaten path. Together, we'll embrace the magic of hiking, one step at a time. Welcome to my world of adventure and exploration!",
+    "hiking_conclusion": "Here are some of my recent hikes.",
+
+    "hiking_seeless": "See less",
+    "hiking_seemore": "See more",
+
+    "hiking_post2_title": "Regalon gorges",
+    "hiking_post2_infos": "5.17 miles / 1h45,",
+    "hiking_post2_date": "October 28, 2023",
+    "hiking_post2_description": "This time, I was the one who organized the outing. Halfway between my parents' house and mine, we found ourselves at the Gorges du Regalons.<br><br>A little climbing but nothing dramatic. It was a quiet return to sport with a slight elevation gain of 300m.",
+
+    "hiking_post1_title": "The conch gourd",
+    "hiking_post1_infos": "8.94 miles / 3h40,",
+    "hiking_post1_date": "May 16, 2023",
+    "hiking_post1_description": "I made the mistake of allowing my mother to organize this trip, which I now regret. Let me clarify, the trip was enjoyable, and the scenery was stunning. However, if I were to get lost, I would prefer it to be in the forest rather than spending more than half of the hike on the road.<br><br>In the end, we managed to walk a considerable distance, shared some laughter, discovered \"Le Gour de Conque,\" and even indulged in a nap under the sun after our picnic. We also encountered four magnificent horses who were eager to play. Overall, it was a successful hike, but not the kind that I would repeat.",
+
     "H_travel": "Travel",
     "H_motocycle": "Motocycle",
     "H_parachute": "Parachute",
@@ -19,20 +30,6 @@
     "H_audiovisual": "Audio-Visual",
     "H_origamikirigami": "Origami & Kirigami",
     
-    "title_work": "My work",
-    "work1": "Virtual reality",
-    "work2": "Augmented reality",
-    "work3": "3D simulator",
-    "work4": "2D/3D/360 serious game",
-    "subtitle_work": "What do I do ?",
-    "description_work": "As a computer engineer specialized in VR and AR, my work revolves around utilizing cutting-edge technology, designing immersive experiences, developing applications across platforms, and pushing the boundaries of what is possible in virtual and augmented reality. I strive to create memorable and transformative experiences that captivate users and shape the future of this rapidly evolving field.",
-    "conclusion_work": "Here are some of my latest personal work.<br> Click on the images for more details.",
-    "seemore_work": "See more",
-    
-    "title_contact": "Contact",
-    "subtitle_contact": "I'd love your feedback!",
-    "conclusion_contact": "Swing by for a cup of <i class=\"fa fa-coffee\"></i>, or leave me a note.",
-    "SendMessage_contact": "Send message",
     "footer": "To the top"
   }
   

@@ -63,21 +63,21 @@
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center uppercase" data-i18n="H_hiking">Hiking</h3>
-  <p class="w3-center"><em>Let's go on an adventure!</em></p>
+  <p class="w3-center"><em data-i18n="hiking_subtitle">Let's go on an adventure!</em></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <img src="../assets/img/hobbies/Hiking/description.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <p>
+      <p data-i18n="hiking_description">
         Welcome to my hiking adventures! Join me as I explore the great outdoors, capturing its beauty through photos and brief descriptions. From serene forests to majestic summits, each hike offers a unique experience. I'll share glimpses of the routes, notable landmarks, and lasting impressions. Through vibrant images and concise narratives, I hope to convey the essence of each journey. Hiking teaches me resilience, patience, and the joy of simple pleasures. Nature's beauty inspires and rejuvenates, and I invite you to experience it with me. Let's embark on virtual journeys, celebrating the wonders of our planet and discovering hidden treasures off the beaten path. Together, we'll embrace the magic of hiking, one step at a time. Welcome to my world of adventure and exploration!
       </p>
     </div>
   </div>
   <br>
   <p class="w3-center">
-    <em>Here are some of my recent hikes.</em>
+    <em data-i18n="hiking_conclusion">Here are some of my recent hikes.</em>
   </p>
 
 
@@ -87,19 +87,20 @@
     <div class="w3-card-4 w3-margin w3-white">
       <img src="../assets/img/hobbies/Hiking/post2.jpg" alt="Nature" style="width:100%">
       <div class="w3-container">
-        <h3 class="uppercase"><b>GORGES DE REGALON</b></h3>
-        <h5>8.32 km / 1h45, <span class="w3-opacity">October 28, 2023</span></h5>
+        <h3 class="uppercase"><b data-i18n="hiking_post2_title">Regalon gorges</b></h3>
+        <h5><span data-i18n="hiking_post2_infos">5.17 miles / 1h45,</span> <span class="w3-opacity" data-i18n="hiking_post2_date">October 28, 2023</span></h5>
       </div>
   
       <div class="w3-container">
-        <p>
+        <p data-i18n="hiking_post2_description">
           This time, I was the one who organized the outing. Halfway between my parents' house and mine, we found ourselves at the Gorges du Regalons.
           <br><br>
           A little climbing but nothing dramatic. It was a quiet return to sport with a slight elevation gain of 300m.
         </p>
         <div class="w3-row">
           <div class="w3-col m8 s12">
-            <p><button id="post2-btn" class="w3-button w3-padding-large w3-white w3-border" onClick="ShowDetails('post2')"><b>SEE MORE ></b></button></p>
+            <p><button id="post2-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post2')"><b class="uppercase" data-i18n="hiking_seemore">SEE MORE ></b></button></p>
+            <p><button id="post2-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post2')"><b class="uppercase" data-i18n="hiking_seeless">See less ></b></button></p>
           </div>
         </div>
       </div>
@@ -121,19 +122,20 @@
     <div class="w3-card-4 w3-margin w3-white">
       <img src="../assets/img/hobbies/Hiking/post1.jpg" alt="Nature" style="width:100%">
       <div class="w3-container">
-        <h3 class="uppercase"><b>LE GOUR DE CONQUE</b></h3>
-        <h5>14.39 km / 3h40, <span class="w3-opacity">May 16, 2023</span></h5>
+        <h3 class="uppercase"><b data-i18n="hiking_post1_title">The conch gourd</b></h3>
+        <h5><span data-i18n="hiking_post1_infos">8.94 miles / 3h40,</span> <span class="w3-opacity" data-i18n="hiking_post1_date">May 16, 2023</span></h5>
       </div>
   
       <div class="w3-container">
-        <p>
+        <p data-i18n="hiking_post1_description">
           I made the mistake of allowing my mother to organize this trip, which I now regret. Let me clarify, the trip was enjoyable, and the scenery was stunning. However, if I were to get lost, I would prefer it to be in the forest rather than spending more than half of the hike on the road.
           <br><br>
           In the end, we managed to walk a considerable distance, shared some laughter, discovered "Le Gour de Conque," and even indulged in a nap under the sun after our picnic. We also encountered four magnificent horses who were eager to play. Overall, it was a successful hike, but not the kind that I would repeat.
         </p>
         <div class="w3-row">
           <div class="w3-col m8 s12">
-            <p><button id="post1-btn" class="w3-button w3-padding-large w3-white w3-border" onClick="ShowDetails('post1')"><b>SEE MORE ></b></button></p>
+            <p><button id="post1-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post1')"><b class="uppercase" data-i18n="hiking_seemore">SEE MORE ></b></button></p>
+            <p><button id="post1-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post1')"><b class="uppercase" data-i18n="hiking_seeless">See less ></b></button></p>
           </div>
         </div>
       </div>
@@ -168,7 +170,7 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i><span data-i18n="footer">To the top</span></a>
   <div class="w3-xlarge w3-section">
     <a href="https://www.linkedin.com/in/manon-vessiot-b5a054153/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
     <a href="https://github.com/ManonVessiot" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>

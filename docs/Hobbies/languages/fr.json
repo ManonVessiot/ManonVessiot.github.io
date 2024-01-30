@@ -4,13 +4,24 @@
     "nav_work": "Mon travail",
     "nav_contact": "Contact",
 
-    "title_about": "À propos de moi",
-    "subtitle_about": "Bienvenue dans le monde de réalité virtuelle et au-delà de Manon !",
-    "resume_about": "CV",
-    "description_about": "Je suis Manon, une <b class=\"w3-text-indigo\">ingénieure en informatique</b> spécialisée en <b class=\"w3-text-indigo\">RV</b> et <b class=\"w3-text-indigo\">RA</b>. Travaillant à l'<a href=\"https://www.univ-amu.fr/\" target=\"_blank\"><b class=\"w3-text-indigo\">Université d'Aix-Marseille</b></a> au Centre de réalité virtuelle de la Méditerranée (<a href=\"https://www.crvm.eu/\" target=\"_blank\"><b class=\"w3-text-indigo\">CRVM</b></a>), je crée des expériences captivantes sur différentes plateformes (<b class=\"w3-text-indigo\">web, smartphone, PC, et casques</b>). Des paysages immersifs aux avatars réalistes, je repousse les limites de la technologie pour transporter les utilisateurs dans des royaumes numériques extraordinaires.<br><br> La <b class=\"w3-text-indigo\">photographie </b> et la <b class=\"w3-text-indigo\">vidéographie </b> sont mes passions, capturant la beauté du monde et racontant des histoires captivantes. Lorsque je ne suis pas immergé dans les pixels, je me lance dans des aventures exaltantes de <b class=\"w3-text-indigo\">randonnée</b>, m'inspirant de la sérénité de la nature. <b class=\"w3-text-indigo\">Voyager</b> élargit mes horizons et insuffle de l'authenticité à mon travail.<br><br> Des <b class=\"w3-text-indigo\">sports</b> comme le <b class=\"w3-text-indigo\">parachutisme</b> et le <b class=\"w3-text-indigo\">parapente</b> procurent une montée d'adrénaline, me rappelant le frisson de briser les frontières. Les <b class=\"w3-text-indigo\">jeux vidéo</b> et les <b class=\"w3-text-indigo\"> films</b> nourrissent mon imagination et influencent mes efforts créatifs.",
-    "conclusion_about": "Rejoignez-moi pour explorer les possibilités illimitées de la réalité virtuelle, célébrer les arts visuels et embarquer dans des aventures palpitantes.<br><b class=\"w3-text-indigo\">Bienvenue dans mon monde !</b>",
-    "hobbies_intro": "Voici quelques-uns de mes passe-temps.<br>Cliquez sur les images pour plus de détails.",
     "H_hiking": "Randonnée",
+    "hiking_subtitle": "Partons à l'aventure!",
+    "hiking_description": "Bienvenue dans mes aventures de randonnée ! Rejoignez-moi alors que j'explore les grands espaces, capturant sa beauté à travers des photos et de brèves descriptions. Des forêts sereines aux sommets majestueux, chaque randonnée offre une expérience unique. Je partagerai des aperçus des itinéraires, des monuments remarquables et des impressions durables. À travers des images vibrantes et des récits concis, j'espère transmettre l'essence de chaque voyage. La randonnée m'apprend la résilience, la patience et la joie des plaisirs simples. La beauté de la nature inspire et rajeunit, et je vous invite à en faire l'expérience avec moi. Embarquons pour des voyages virtuels, célébrant les merveilles de notre planète et découvrant des trésors cachés hors des sentiers battus. Ensemble, nous découvrirons la magie de la randonnée, une étape à la fois. Bienvenue dans mon monde d'aventure et d'exploration !",
+    "hiking_conclusion": "Voici quelques-unes de mes récentes randonnées.",
+
+    "hiking_seeless": "Voir moins",
+    "hiking_seemore": "Voir plus",
+
+    "hiking_post2_title": "Gorges de Régalon",
+    "hiking_post2_infos": "8.32 km / 1h45,",
+    "hiking_post2_date": "28 octobre 2023",
+    "hiking_post2_description": "Cette fois, c'est moi qui ai organisé la sortie. A mi-chemin entre la maison de mes parents et la mienne, nous nous sommes retrouvés aux Gorges du Regalons.<br><br>Un peu d'escalade mais rien de dramatique. Ce fut une reprise du sport tranquille avec un léger dénivelé de 300m.",
+
+    "hiking_post1_title": "Le gour de conque",
+    "hiking_post1_infos": "14.39 km / 3h40,",
+    "hiking_post1_date": "16 mai 2023",
+    "hiking_post1_description": "J'ai commis l'erreur de laisser ma mère organiser ce voyage, ce que je regrette aujourd'hui. Permettez-moi de clarifier, le voyage a été agréable et le paysage était magnifique. Cependant, si je devais me perdre, je préférerais que ce soit en forêt plutôt que de passer plus de la moitié de la randonnée sur la route.<br><br>Au final, nous avons parcouru une distance considérable, partagé quelques rires, découvert \"Le Gour de Conque\", et même nous sommes offert une sieste au soleil après notre pique-nique. Nous avons également croisé quatre magnifiques chevaux qui avaient envie de jouer. Dans l’ensemble, ce fut une randonnée réussie, mais pas du genre à répéter.",
+
     "H_travel": "Voyage",
     "H_motocycle": "Moto",
     "H_parachute": "Parachute",
@@ -19,20 +30,6 @@
     "H_audiovisual": "Audio-Visuel",
     "H_origamikirigami": "Origami & Kirigami",
     
-    "title_work": "Mon travail",
-    "work1": "Réalité virtuelle",
-    "work2": "Réalité augmentée",
-    "work3": "simulateur 3D",
-    "work4": "Jeu sérieux 2D/3D/360",
-    "subtitle_work": "Que fais-je ?",
-    "description_work": "En tant qu'ingénieure en informaticien spécialisé en RV et RA, mon travail consiste à utiliser une technologie de pointe, à concevoir des expériences immersives, à développer des applications sur plusieurs plateformes et à repousser les limites de ce qui est possible en réalité virtuelle et augmentée. Je m'efforce de créer des expériences mémorables et transformatrices qui captivent les utilisateurs et façonnent l'avenir de ce domaine en évolution rapide.",
-    "conclusion_work": "Voici quelques-uns de mes derniers travaux personnels.<br>Cliquez sur les images pour plus de détails.",
-    "seemore_work": "Voir plus",
-    
-    "title_contact": "Contact",
-    "subtitle_contact": "J'adorerais avoir vos retours !",
-    "conclusion_contact": "Passez prendre une tasse de <i class=\"fa fa-coffee\"></i>, ou laissez-moi un message.",
-    "SendMessage_contact": "Envoyer un message",
     "footer": "Retour en haut"
   }
   
