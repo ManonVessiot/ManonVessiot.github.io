@@ -4,13 +4,13 @@
     "nav_work": "Mon travail",
     "nav_contact": "Contact",
 
+    "seeless": "Voir moins",
+    "seemore": "Voir plus",
+
     "H_hiking": "Randonnée",
     "hiking_subtitle": "Partons à l'aventure!",
     "hiking_description": "Bienvenue dans mes aventures de randonnée ! Rejoignez-moi alors que j'explore les grands espaces, capturant sa beauté à travers des photos et de brèves descriptions. Des forêts sereines aux sommets majestueux, chaque randonnée offre une expérience unique. Je partagerai des aperçus des itinéraires, des monuments remarquables et des impressions durables. À travers des images vibrantes et des récits concis, j'espère transmettre l'essence de chaque voyage. La randonnée m'apprend la résilience, la patience et la joie des plaisirs simples. La beauté de la nature inspire et rajeunit, et je vous invite à en faire l'expérience avec moi. Embarquons pour des voyages virtuels, célébrant les merveilles de notre planète et découvrant des trésors cachés hors des sentiers battus. Ensemble, nous découvrirons la magie de la randonnée, une étape à la fois. Bienvenue dans mon monde d'aventure et d'exploration !",
     "hiking_conclusion": "Voici quelques-unes de mes récentes randonnées.",
-
-    "seeless": "Voir moins",
-    "seemore": "Voir plus",
 
     "hiking_post2_title": "Gorges de Régalon",
     "hiking_post2_infos": "8.32 km / 1h45,",
@@ -23,6 +23,26 @@
     "hiking_post1_description": "J'ai commis l'erreur de laisser ma mère organiser ce voyage, ce que je regrette aujourd'hui. Permettez-moi de clarifier, le voyage a été agréable et le paysage était magnifique. Cependant, si je devais me perdre, je préférerais que ce soit en forêt plutôt que de passer plus de la moitié de la randonnée sur la route.<br><br>Au final, nous avons parcouru une distance considérable, partagé quelques rires, découvert \"Le Gour de Conque\", et même nous sommes offert une sieste au soleil après notre pique-nique. Nous avons également croisé quatre magnifiques chevaux qui avaient envie de jouer. Dans l’ensemble, ce fut une randonnée réussie, mais pas du genre à répéter.",
 
     "H_travel": "Voyage",
+    "travel_subtitle": "Partons à l'autre bout du monde !",
+    "travel_description": "Bienvenue dans mes chroniques de voyage ! Rejoignez-moi dans des voyages captivants alors que j'explore le monde, capturant des paysages divers et des moments inoubliables. À travers des photos et de brèves descriptions, je vous emmènerai dans une visite virtuelle, mettant en valeur des monuments emblématiques et des découvertes hors des sentiers battus. Allumons votre envie de voyager et embrassons de nouvelles perspectives. Ensemble, nous découvrirons des trésors cachés et créerons des souvenirs inoubliables. Bienvenue dans mon monde de voyage et de découverte !",
+    "travel_conclusion": "Voici quelques-uns de mes récents voyages.",
+
+    "travel_post3_title": "LOS ANGELES, LAS VEGAS, SAN FRANCISCO",
+    "travel_post3_infos": "Road trip,",
+    "travel_post3_date": "27 août - 14 septembre 2023",
+    "travel_post3_description": "Road trip aux Etats-Unis, en commençant par Los Angeles que j'avais déjà visité sur GTA 5. En passant par le Grand Canyon, Las Vegas, l'Area 51, Yosemite Park et San Francisco !<br><br>Marcher dans la forêt de séquoias et nager dans sa rivière était probablement mon moment préféré. Même si la journée où nous sommes allés au Grand Canyon a été formidable et pleine de surprises, mon grand amour sera toujours nager dans les rivières !",
+
+    "travel_post2_title": "Espagne",
+    "travel_post2_infos": "Une semaine avec moi et le soleil,",
+    "travel_post2_date": "9 - 15 juillet 2020",
+    "travel_post2_description": "Suite à notre voyage en famille à Port Aventura, j'ai fait le choix de prolonger mon séjour en Espagne dans le but de visiter et profiter du soleil.<br><br>Pendant cette période, j'ai résidé dans une ferme écologique et j'ai passé une semaine à explorer les villes, les plages et les forêts de l'est de l'Espagne. Chaque matin, j'avais l'habitude de prendre une douche extérieure au lever du soleil avant de me lancer dans mes aventures quotidiennes.<br><br>De toutes les expériences, mes plus beaux souvenirs sont associés aux forêts enchanteresses et aux rivières sereines. Que ce soit en France ou dans tout autre pays, je crois que ces milieux naturels garderont toujours une place particulière dans mon cœur.",
+
+    "travel_post1_title": "Corse",
+    "travel_post1_infos": "Voyage en famille,",
+    "travel_post1_date": "??",
+    "travel_post1_description": "Indéniablement, l'une des vacances en famille les plus remarquables que nous ayons eues. Plaire à tout le monde peut être un véritable défi, mais la Corse s'est avérée être une destination qui répond à toutes les préférences. Sa taille compacte permet un accès facile, nous permettant d'explorer des villes animées, de nous prélasser sur des plages ensoleillées et de nous lancer dans des randonnées revigorantes en forêt au sein de la captivante île de Corse. Comme si cela ne suffisait pas, nous nous sommes même aventurés dans les profondeurs de la mer à travers des aventures de plongée !<br><br>Sans aucun doute, un voyage de retour est inévitable. Il y a tellement plus à découvrir et à expérimenter, me laissant avec une envie résolue de revisiter la Corse dans le futur.",
+
+
     "H_motocycle": "Moto",
     "H_parachute": "Parachute",
     "H_paragliding": "Parapente",

@@ -3,14 +3,14 @@
     "nav_about": "About",
     "nav_work": "My work",
     "nav_contact": "Contact",
+    
+    "seeless": "See less",
+    "seemore": "See more",
 
     "H_hiking": "Hiking",
     "hiking_subtitle": "Let's go on an adventure!",
     "hiking_description": "Welcome to my hiking adventures! Join me as I explore the great outdoors, capturing its beauty through photos and brief descriptions. From serene forests to majestic summits, each hike offers a unique experience. I'll share glimpses of the routes, notable landmarks, and lasting impressions. Through vibrant images and concise narratives, I hope to convey the essence of each journey. Hiking teaches me resilience, patience, and the joy of simple pleasures. Nature's beauty inspires and rejuvenates, and I invite you to experience it with me. Let's embark on virtual journeys, celebrating the wonders of our planet and discovering hidden treasures off the beaten path. Together, we'll embrace the magic of hiking, one step at a time. Welcome to my world of adventure and exploration!",
     "hiking_conclusion": "Here are some of my recent hikes.",
-
-    "seeless": "See less",
-    "seemore": "See more",
 
     "hiking_post2_title": "Regalon gorges",
     "hiking_post2_infos": "5.17 miles / 1h45,",
@@ -23,6 +23,26 @@
     "hiking_post1_description": "I made the mistake of allowing my mother to organize this trip, which I now regret. Let me clarify, the trip was enjoyable, and the scenery was stunning. However, if I were to get lost, I would prefer it to be in the forest rather than spending more than half of the hike on the road.<br><br>In the end, we managed to walk a considerable distance, shared some laughter, discovered \"Le Gour de Conque,\" and even indulged in a nap under the sun after our picnic. We also encountered four magnificent horses who were eager to play. Overall, it was a successful hike, but not the kind that I would repeat.",
 
     "H_travel": "Travel",
+    "travel_subtitle": "Let's go to the other side of the world!",
+    "travel_description": "Welcome to my travel chronicles! Join me on captivating journeys as I explore the globe, capturing diverse landscapes and unforgettable moments. Through photos and brief descriptions, I'll take you on a virtual tour, showcasing iconic landmarks and off-the-beaten-path discoveries. Let's ignite your wanderlust and embrace new perspectives. Together, we'll uncover hidden treasures and create memories that last. Welcome to my world of travel and discovery!",
+    "travel_conclusion": "Here are some of my recent travels.",
+
+    "travel_post3_title": "LOS ANGELES, LAS VEGAS, SAN FRANCISCO",
+    "travel_post3_infos": "Road trip,",
+    "travel_post3_date": "August 27 - September 14, 2023",
+    "travel_post3_description": "Road trip in the United States, starting with Los Angeles which I had already visited on GTA 5. Passing through the Grand Canyon, Las Vegas, Area 51, Yosemite Park and San Francisco!<br><br>Walking in the sequoia forest and swimming in its river was probably my favorite moment. Although, the day we drove to the Grand Canyon was great and full of surprises, my great love will forever be swimming in rivers!",
+
+    "travel_post2_title": "SPAIN",
+    "travel_post2_infos": "One week with myself and the sun,",
+    "travel_post2_date": "July 9-15, 2020",
+    "travel_post2_description": "Following our family trip to Port Aventura, I made the choice to extend my stay in Spain for the purpose of visiting and enjoying the sunshine.<br><br>During this period, I resided at an ecological farm and spent a week exploring the towns, beaches, and forests of eastern Spain. Each morning, I had the habit of taking an outdoor shower at sunrise before embarking on my daily adventures.<br><br>Of all the experiences, my fondest memories are associated with the enchanting forests and serene rivers. Whether in France or any other country, I believe these natural environments will always hold a special place in my heart.",
+
+    "travel_post1_title": "CORSICA",
+    "travel_post1_infos": "Family trip,",
+    "travel_post1_date": "??",
+    "travel_post1_description": "Undeniably, one of the most remarkable family vacations we've had. Pleasing everyone can be quite challenging, but Corsica proved to be a destination that caters to all preferences. Its compact size allows for easy accessibility, enabling us to explore vibrant cities, bask in sun-kissed beaches, and embark on invigorating forest hikes within the captivating island of Corsica. As if that weren't enough, we even ventured into the depths of the sea through diving adventures!<br><br>Without a doubt, a return trip is inevitable. There is so much more to discover and experience, leaving me with a resolute desire to revisit Corsica in the future.",
+
+
     "H_motocycle": "Motocycle",
     "H_parachute": "Parachute",
     "H_paragliding": "Paragliding",
