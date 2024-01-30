@@ -42,8 +42,17 @@
     "travel_post1_date": "??",
     "travel_post1_description": "Indéniablement, l'une des vacances en famille les plus remarquables que nous ayons eues. Plaire à tout le monde peut être un véritable défi, mais la Corse s'est avérée être une destination qui répond à toutes les préférences. Sa taille compacte permet un accès facile, nous permettant d'explorer des villes animées, de nous prélasser sur des plages ensoleillées et de nous lancer dans des randonnées revigorantes en forêt au sein de la captivante île de Corse. Comme si cela ne suffisait pas, nous nous sommes même aventurés dans les profondeurs de la mer à travers des aventures de plongée !<br><br>Sans aucun doute, un voyage de retour est inévitable. Il y a tellement plus à découvrir et à expérimenter, me laissant avec une envie résolue de revisiter la Corse dans le futur.",
 
-
     "H_motocycle": "Moto",
+    "moto_subtitle": "Allons faire un tour!",
+    "moto_description": "Bienvenue dans le monde passionnant de la moto ! Rejoignez-moi alors que j'embrasse la liberté de la route ouverte, capturant des paysages à couper le souffle et l'exaltation de l'exploration sur deux roues. Roulons ensemble, découvrons des trésors cachés et célébrons la joie des aventures en moto. Bienvenue dans mon monde d'excitation à deux roues !",
+    "moto_conclusion": "Voici quelques-unes de mes récentes balades.",
+
+    "moto_post1_title": "PREMIER ESSAI",
+    "moto_post1_infos": "Première fois que je conduis une moto,",
+    "moto_post1_date": "1er mai 2023",
+    "moto_post1_description": "Depuis longtemps, j'ai nourri une forte envie d'obtenir mon permis moto. Cependant, en raison du manque d'enthousiasme de ma famille à l'égard de cette idée, je me suis retenu et je n'ai jamais vraiment poursuivi cette idée ni trouvé l'opportunité de le faire. Néanmoins, un tournant s'est produit lorsqu'un ami m'a gracieusement permis d'essayer sa moto. Cette expérience a solidifié ma détermination. C'est décidé, je vais passer le permis moto !",
+
+
     "H_parachute": "Parachute",
     "H_paragliding": "Parapente",
     "H_diving": "Plongée",
