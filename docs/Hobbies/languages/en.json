@@ -87,9 +87,30 @@
     "diving_post1_date": "April 7, 2014",
     "diving_post1_description": "Water has always been my sanctuary, providing me with a profound sense of serenity. I derive immense joy from exploring the depths of lakes and oceans, but my aspirations extend beyond the limitations of my lungs. Initially, I hesitated to delve into diving due to the complex equipment involved, as I tend to find solace in simplicity. However, having taken the leap and experienced it firsthand, I am now filled with an insatiable desire to immerse myself in underwater exploration whenever the whim strikes. Let us embrace a life beneath the waves and revel in its wonders!",
 
-
     "H_audiovisual": "Audio-Visual",
+    "audiovisual_subtitle": "",
+    "audiovisual_description": "",
+    "audiovisual_conclusion": "",
+
+    "audiovisual_post2_title": "",
+    "audiovisual_post2_infos": "",
+    "audiovisual_post2_date": "",
+    "audiovisual_post2_description": "",
+
+    "audiovisual_post1_title": "",
+    "audiovisual_post1_infos": "",
+    "audiovisual_post1_date": "",
+    "audiovisual_post1_description": "",
+
     "H_origamikirigami": "Origami & Kirigami",
+    "origamikirigami_subtitle": "Let's play with paper!",
+    "origamikirigami_description": "Welcome to the captivating world of origami and kirigami! Join me as I create stunning designs through the art of paper folding and cutting. Let's explore the beauty of intricate folds, precise cuts, and the transformative power of paper. Welcome to my world of paper artistry and creativity!",
+    "origamikirigami_conclusion": "Here are some of my recent works.",
+
+    "origamikirigami_post1_title": "Old works",
+    "origamikirigami_post1_infos": "Let's dig into the past,",
+    "origamikirigami_post1_date": "2015 - 2018",
+    "origamikirigami_post1_description": "I have a fondness for tinkering, especially when it comes to working with paper. It all began with origami, and then I delved into the art of kirigami. As my journey progressed, I stumbled upon the captivating realm of 3D origami, which I eventually adapted to suit my own style. However, my creative endeavors don't stop there. I find joy in repurposing items like old beer capsules or anything that happens to be lying around. I've even experimented with the possibilities offered by a 3D pen.<br><br>In my collection of old photos, I rediscovered these.",
     
     "footer": "To the top"
   }

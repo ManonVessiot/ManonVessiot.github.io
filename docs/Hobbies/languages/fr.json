@@ -88,9 +88,30 @@
     "diving_post1_date": "7 avril 2014",
     "diving_post1_description": "L'eau a toujours été mon sanctuaire, me procurant un profond sentiment de sérénité. J’éprouve une immense joie à explorer les profondeurs des lacs et des océans, mais mes aspirations dépassent les limites de mes poumons. Au départ, j’hésitais à me lancer dans la plongée en raison de l’équipement complexe que cela implique, car j’ai tendance à trouver du réconfort dans la simplicité. Cependant, après avoir franchi le pas et en avoir fait l’expérience, je suis désormais empli d’un désir insatiable de me plonger dans l’exploration sous-marine dès que l’envie me vient. Embrassons la vie sous les vagues et délectons-nous de ses merveilles !",
 
-
     "H_audiovisual": "Audio-Visuel",
+    "audiovisual_subtitle": "",
+    "audiovisual_description": "",
+    "audiovisual_conclusion": "",
+
+    "audiovisual_post2_title": "",
+    "audiovisual_post2_infos": "",
+    "audiovisual_post2_date": "",
+    "audiovisual_post2_description": "",
+
+    "audiovisual_post1_title": "",
+    "audiovisual_post1_infos": "",
+    "audiovisual_post1_date": "",
+    "audiovisual_post1_description": "",
+
     "H_origamikirigami": "Origami & Kirigami",
+    "origamikirigami_subtitle": "Jouons avec le papier !",
+    "origamikirigami_description": "Bienvenue dans le monde captivant de l'origami et du kirigami ! Rejoignez-moi pour créer des designs époustouflants grâce à l'art du pliage et de la découpe du papier. Explorons la beauté des plis complexes, des coupes précises et le pouvoir transformateur du papier. Bienvenue dans mon monde d’art du papier et de créativité !",
+    "origamikirigami_conclusion": "Voici quelques-unes de mes récentes œuvres.",
+
+    "origamikirigami_post1_title": "Ancienne œuvres",
+    "origamikirigami_post1_infos": "Creusons dans le passé,",
+    "origamikirigami_post1_date": "2015 - 2018",
+    "origamikirigami_post1_description": "J'ai un penchant pour le bricolage, surtout lorsqu'il s'agit de travailler avec du papier. Tout a commencé avec l'origami, puis je me suis plongé dans l'art du kirigami. Au fur et à mesure de mon parcours, je suis tombé sur le domaine captivant de l'origami 3D, que j'ai finalement adapté à mon propre style. Cependant, mes efforts créatifs ne s’arrêtent pas là. Je trouve de la joie à réutiliser des objets comme de vieilles capsules de bière ou tout ce qui traîne. J'ai même expérimenté les possibilités offertes par un stylo 3D.<br><br>Dans ma collection de photos anciennes, je les ai redécouvertes.",
     
     "footer": "Retour en haut"
   }
