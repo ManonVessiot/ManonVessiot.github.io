@@ -30,18 +30,22 @@
     <a class="w3-bar-item w3-button w3-hover-white w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars w3-text-white w3-hover-text-black"></i>
     </a>
-    <a href="../index.html#home" class="w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-home"></i>HOME</a>
-    <a href="../index.html#about" class="w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="../index.html#portfolio" class="w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-th"></i> MY WORK</a>
-    <a href="../index.html#contact" class="w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="../index.html#home" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="../index.html#about" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="../index.html#portfolio" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="../index.html#contact" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('en')">EN</a>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="../index.html#home" class="w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-home"></i>HOME</a>
-    <a href="../index.html#about" class="w3-bar-item w3-button w3-text-black" onclick="toggleFunction()">ABOUT</a>
-    <a href="../index.html#portfolio" class="w3-bar-item w3-button w3-text-black" onclick="toggleFunction()">MY WORK</a>
-    <a href="../index.html#contact" class="w3-bar-item w3-button w3-text-black" onclick="toggleFunction()">CONTACT</a>
+  <div id="navDemo" class="uppercase w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="../index.html#home" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="../index.html#about" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="../index.html#portfolio" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="../index.html#contact" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('en')">EN</a>
   </div>
 </div>
 
@@ -102,6 +106,7 @@
 
 
 <script src="../js/navbar.js"></script>
+<script src="../js/languages.js"></script>
 
 
 
