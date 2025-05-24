@@ -1,0 +1,14 @@
+/* First image (Logo. Full height) */ /* TODO : image for HOME */
+.bgimg-1 {
+  background-image: url('../assets/img/home.jpg');
+}
+
+/* Second image (Work) */ /* TODO : image for WORK */
+.bgimg-2 {
+  background-image: url("../assets/img/work.jpg");
+}
+
+/* Third image (Contact) */ /* TODO : image for CONTACT */
+.bgimg-3 {
+  background-image: url("../assets/img/contact.jpg");
+}

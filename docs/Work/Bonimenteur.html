@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Le Bonimenteur - Manon Vessiot</title>
+        <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+        <link rel="stylesheet" href="../css/w3.css">
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">-->
+        <link rel="stylesheet" href="../css/fonts-googleapis.css">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/global-style.css">
+        <style>
+          .bgimg-1 {
+            background-image: url('../assets/img/work/LeBonimenteur/header.jpg');
+          }
+        </style>
+    </head>
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-white w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars w3-text-white w3-hover-text-black"></i>
+    </a>
+    <a href="../index.html#home" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="../index.html#about" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="../index.html#portfolio" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="../index.html#contact" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('en')">EN</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="uppercase w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="../index.html#home" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="../index.html#about" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="../index.html#portfolio" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="../index.html#contact" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('en')">EN</a>
+  </div>
+</div>
+
+
+
+<!-- First Parallax Image with Logo Text  w3-opacity-min-->
+<div class="bgimg bgimg-cover bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img src="../assets/img/logo.png" class="w3-round w3-image" alt="Logo" width="500" height="333">
+  </div>
+</div>
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center uppercase">Le bonimenteur</h3>
+  <p class="w3-center"><em></em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><a href="https://manonvessiot.github.io/lebonimenteurgame/" target="_blank"><i class="fa fa-gamepad w3-margin-right"></i><span data-i18n="bonimenteur_tryapp">Try app</span></a></p><br>
+      <img src="../assets/img/work/LeBonimenteur/description.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p data-i18n="bonimenteur_description">
+        Le Bonimenteur is an application designed by my brother Romain and myself. I first developed it on Unity and made it available on Google Store. But not having the possibility to give access to people using Apple devices, I decided to develop it in web, allowing access to any device with a browser.
+        <br><br>
+        This game is made for 3 players minimum. The principle is to debate on a subject, without giving too many details, because among the players hides one or more liars who do not have the subject. These liars must pretend to know the subject by debating it with others. The goal of liars is not to be unmasked and to find the subject. As for the other players, they must unmask the liars without making them understand what this debate is about.
+        <br><br>
+        Thus, players can discuss more or less serious subjects, such as glue hours. Is it really useful? Are we for or against? ... Go ahead, <a href="https://manonvessiot.github.io/lebonimenteurgame/" target="_blank">try</a>!
+      </p>
+    </div>
+  </div>
+  <br>
+
+  <div class="w3-row">
+    <div class="w3-col m3 w3-padding">
+      <img class="w3-image" src="../assets/img/work/LeBonimenteur/1.PNG" style="width:100%">
+    </div>
+    <div class="w3-col m3 w3-padding">
+      <img class="w3-image" src="../assets/img/work/LeBonimenteur/2.PNG" style="width:100%">
+    </div>
+    <div class="w3-col m3 w3-padding">
+      <img class="w3-image" src="../assets/img/work/LeBonimenteur/3.PNG" style="width:100%">
+    </div>
+    <div class="w3-col m3 w3-padding">
+      <img class="w3-image" src="../assets/img/work/LeBonimenteur/4.PNG" style="width:100%">
+    </div>
+    <div class="w3-col m3 w3-padding">
+      <img class="w3-image" src="../assets/img/work/LeBonimenteur/5.PNG" style="width:100%">
+    </div>
+    <div class="w3-col m3 w3-padding">
+      <img class="w3-image" src="../assets/img/work/LeBonimenteur/6.PNG" style="width:100%">
+    </div>
+    <div class="w3-col m3 w3-padding">
+      <img class="w3-image" src="../assets/img/work/LeBonimenteur/7.PNG" style="width:100%">
+    </div>
+    <div class="w3-col m3 w3-padding">
+      <img class="w3-image" src="../assets/img/work/LeBonimenteur/8.PNG" style="width:100%">
+    </div>
+  </div>
+
+  <p class="w3-center" data-i18n="bonimenteur_conclusion">
+    Go ahead, <a href="https://manonvessiot.github.io/lebonimenteurgame/" target="_blank">try</a>!
+  </p>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i><span data-i18n="footer">To the top</span></a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.linkedin.com/in/manon-vessiot-b5a054153/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://github.com/ManonVessiot" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://gitlab.com/ManonVessiot" target="_blank"><i class="fa fa-gitlab w3-hover-opacity"></i></a>
+  </div>
+  <p></p>
+</footer>
+ 
+
+
+<script src="../js/navbar.js"></script>
+<script src="../js/languages.js"></script>
+
+
+
+</body>
+</html>

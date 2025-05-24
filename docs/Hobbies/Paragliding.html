@@ -1,0 +1,185 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Paragliding - Manon Vessiot</title>
+        <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+        <link rel="stylesheet" href="../css/w3.css">
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">-->
+        <link rel="stylesheet" href="../css/fonts-googleapis.css">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/global-style.css">
+        <style>
+          .bgimg-1 {
+            background-image: url('../assets/img/hobbies/Paragliding/header.jpg');
+          }
+        </style>
+    </head>
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-white w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars w3-text-white w3-hover-text-black"></i>
+    </a>
+    <a href="../index.html#home" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="../index.html#about" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="../index.html#portfolio" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="../index.html#contact" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('en')">EN</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="uppercase w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="../index.html#home" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="../index.html#about" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="../index.html#portfolio" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="../index.html#contact" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('en')">EN</a>
+  </div>
+</div>
+
+
+
+<!-- First Parallax Image with Logo Text  w3-opacity-min-->
+<div class="bgimg bgimg-cover bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img src="../assets/img/logo.png" class="w3-round w3-image" alt="Logo" width="500" height="333">
+  </div>
+</div>
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center uppercase" data-i18n="H_paragliding">PARAGLIDING</h3>
+  <p class="w3-center"><em data-i18n="paragliding_subtitle">Let's go fly!</em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="../assets/img/hobbies/Paragliding/description.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p data-i18n="paragliding_description">
+        Welcome to the exhilarating world of paragliding! Join me as I soar through the skies, capturing the freedom and thrill of this incredible sport. Let's chase the adrenaline, witness breathtaking views, and experience the joy of defying gravity. Welcome to my world of airborne adventure!
+      </p>
+    </div>
+  </div>
+  <br>
+  <p class="w3-center">
+    <em data-i18n="paragliding_conclusion">Here are some of my recent flights.</em>
+  </p>
+
+
+
+  <div class="w3-col">
+    <!-- Blog entry -->
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Paragliding/post3.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="paragliding_post3_title">Paragliding course in Morocco</b></h3>
+        <h5><span data-i18n="paragliding_post3_infos">Morocco,</span> <span class="w3-opacity" data-i18n="paragliding_post3_date">November 8-15, 2024</span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="paragliding_post3_description">
+          My first trip fully dedicated to paragliding.<br>I set off with 33 flights under my belt, having just earned my beginner’s license, and joined by the best paragliding school: Marseille Parapente. Destination: the stunning surroundings of Mirleft. On the itinerary: Nid d’Aigle, Bunamaan, Legzira, and Aglou.<br>I discovered how to use the speed bar to enjoy some amazing dynamic flights. My landings visibly improved, and I started practicing reverse launches, with a few friendly challenges between us—focused on glide performance and touch & go landings.<br>It was the best trip of my life. Huge thanks to the instructors, and to the students who helped make this experience truly unforgettable!
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post3-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post3')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post3-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post3')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="post3-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <iframe class="w3-light-grey" width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/emOCRjGZchw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Paragliding/post2.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="paragliding_post2_title">FIRST SOLO FLIGHT</b></h3>
+        <h5><span data-i18n="paragliding_post2_infos">Takeoff from Cuges-les-Pins,</span> <span class="w3-opacity" data-i18n="paragliding_post2_date">January 21, 2024</span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="paragliding_post2_description">
+          That's it ! I made my first big paragliding flight. Guided by radio I took off, piloted and landed. In the space of a day and a half of training I was able to fly alone. I thought that was the goal, the end I wanted to achieve... I was completely wrong. Only 2 days later, I was back with 3 more flights. In fact, it was only the beginning!
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post2-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post2')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post2-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post2')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="post2-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <iframe class="w3-light-grey" width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/0nt9DrX0hF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Paragliding/post1.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="paragliding_post1_title">FIRST FLIGHT</b></h3>
+        <h5><span data-i18n="paragliding_post1_infos">Chamonix seen from above,</span> <span class="w3-opacity" data-i18n="paragliding_post1_date">February 26, 2022</span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="paragliding_post1_description">
+          Technically, this isn't my inaugural flight. However, any previous experiences pale in comparison to the one I just had! The view from up there was absolutely breathtaking. Not only did I get the chance to pilot the aircraft, but I also indulged in exhilarating aerobatic maneuvers. The rush of adrenaline during the flight and the subsequent surge of excitement were two moments that I yearn to experience repeatedly. Even though I had a moment of queasiness afterward, feeling as if my insides were about to make an unwelcome appearance, I still crave that sensation!
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post1-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post1')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post1-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post1')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="post1-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <iframe class="w3-light-grey" width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/_3T5-UNkR5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!--<hr>-->
+  <!-- END BLOG ENTRIES -->
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i><span data-i18n="footer">To the top</span></a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.linkedin.com/in/manon-vessiot-b5a054153/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://github.com/ManonVessiot" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://gitlab.com/ManonVessiot" target="_blank"><i class="fa fa-gitlab w3-hover-opacity"></i></a>
+  </div>
+  <p></p>
+</footer>
+ 
+
+
+<script src="../js/navbar.js"></script>
+<script src="../js/seemore.js"></script>
+<script src="../js/languages.js"></script>
+
+
+
+</body>
+</html>

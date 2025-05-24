@@ -1,0 +1,519 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Travel - Manon Vessiot</title>
+        <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+        <link rel="stylesheet" href="../css/w3.css">
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">-->
+        <link rel="stylesheet" href="../css/fonts-googleapis.css">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/global-style.css">
+        <style>
+          .bgimg-1 {
+            background-image: url('../assets/img/hobbies/Travel/header.jpg');
+          }
+        </style>
+    </head>
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-white w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars w3-text-white w3-hover-text-black"></i>
+    </a>
+    <a href="../index.html#home" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="../index.html#about" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="../index.html#portfolio" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="../index.html#contact" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('en')">EN</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="uppercase w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="../index.html#home" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="../index.html#about" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="../index.html#portfolio" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="../index.html#contact" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('en')">EN</a>
+  </div>
+</div>
+
+
+
+<!-- First Parallax Image with Logo Text  w3-opacity-min-->
+<div class="bgimg bgimg-cover bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img src="../assets/img/logo.png" class="w3-round w3-image" alt="Logo" width="500" height="333">
+  </div>
+</div>
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center uppercase" data-i18n="H_travel">TRAVEL</h3>
+  <p class="w3-center"><em data-i18n="travel_subtitle">Let's go to the other side of the world!</em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="../assets/img/hobbies/Travel/description.jpg" class="w3-round w3-image" width="500" height="333">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p data-i18n="travel_description">
+        Welcome to my travel chronicles! Join me on captivating journeys as I explore the globe, capturing diverse landscapes and unforgettable moments. Through photos and brief descriptions, I'll take you on a virtual tour, showcasing iconic landmarks and off-the-beaten-path discoveries. Let's ignite your wanderlust and embrace new perspectives. Together, we'll uncover hidden treasures and create memories that last. Welcome to my world of travel and discovery!
+      </p>
+    </div>
+  </div>
+  <br>
+  <p class="w3-center">
+    <em data-i18n="travel_conclusion">Here are some of my recent travels.</em>
+  </p>
+
+
+
+  <div class="w3-col">
+    <!-- Blog entry -->
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post10.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post10_title">LOS ANGELES, LAS VEGAS, SAN FRANCISCO</b></h3>
+        <h5><span data-i18n="travel_post10_infos">Road trip,</span> <span class="w3-opacity" data-i18n="travel_post10_date">August 27 - September 14, 2023</span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post10_description">
+          Road trip in the United States, starting with Los Angeles which I had already visited on GTA 5. Passing through the Grand Canyon, Las Vegas, Area 51, Yosemite Park and San Francisco!
+          <br><br>
+          Walking in the sequoia forest and swimming in its river was probably my favorite moment. Although, the day we drove to the Grand Canyon was great and full of surprises, my great love will forever be swimming in rivers!
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post10-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post10')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post10-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post10')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="post10-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post10/1.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/4.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/7.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/10.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/13.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post10/2.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/5.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/8.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/11.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/14.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post10/3.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/6.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/9.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/12.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post10/15.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post9.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post9_title"><!-- title here --></b></h3>
+        <h5><span data-i18n="travel_post9_infos"><!-- infos here --></span> <span class="w3-opacity" data-i18n="travel_post9_date"><!-- date here --></span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post9_description">
+          <!-- description here -->
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post9-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post9')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post9-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post9')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="post9-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post9/1.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post9/4.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post9/2.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post9/5.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post9/3.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post9/6.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post8.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post8_title"><!-- title here --></b></h3>
+        <h5><span data-i18n="travel_post8_infos"><!-- infos here --></span> <span class="w3-opacity" data-i18n="travel_post8_date"><!-- date here --></span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post8_description">
+          <!-- description here -->
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post8-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post8')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post8-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post8')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="post8-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post8/1.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post8/4.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post8/7.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post8/2.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post8/5.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post8/8.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post8/3.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post8/6.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post8/9.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post7.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post7_title">SPAIN</b></h3>
+        <h5><span data-i18n="travel_post7_infos">One week with myself and the sun,</span> <span class="w3-opacity" data-i18n="travel_post7_date">July 9-15, 2020</span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post7_description">
+          Following our family trip to Port Aventura, I made the choice to extend my stay in Spain for the purpose of visiting and enjoying the sunshine.
+          <br><br>
+          During this period, I resided at an ecological farm and spent a week exploring the towns, beaches, and forests of eastern Spain. Each morning, I had the habit of taking an outdoor shower at sunrise before embarking on my daily adventures.
+          <br><br>
+          Of all the experiences, my fondest memories are associated with the enchanting forests and serene rivers. Whether in France or any other country, I believe these natural environments will always hold a special place in my heart.
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post7-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post7')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post7-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post7')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="post7-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-quarter">
+          <img src="../assets/img/hobbies/Travel/post7/1.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/5.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/9.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/13.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/17.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/21.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/25.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/29.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/33.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/37.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/41.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-quarter">
+          <img src="../assets/img/hobbies/Travel/post7/2.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/6.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/10.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/14.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/18.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/22.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/26.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/30.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/34.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/38.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/42.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-quarter">
+          <img src="../assets/img/hobbies/Travel/post7/3.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/7.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/11.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/15.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/19.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/23.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/27.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/31.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/35.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/39.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/43.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-quarter">
+          <img src="../assets/img/hobbies/Travel/post7/4.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/8.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/12.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/16.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/20.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/24.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/28.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/32.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/36.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/40.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post7/44.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post6.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post6_title">CORSICA</b></h3>
+        <h5><span data-i18n="travel_post6_infos">Family trip,</span> <span class="w3-opacity" data-i18n="travel_post6_date">2020</span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post6_description">
+          Undeniably, one of the most remarkable family vacations we've had. Pleasing everyone can be quite challenging, but Corsica proved to be a destination that caters to all preferences. Its compact size allows for easy accessibility, enabling us to explore vibrant cities, bask in sun-kissed beaches, and embark on invigorating forest hikes within the captivating island of Corsica. As if that weren't enough, we even ventured into the depths of the sea through diving adventures!
+          <br><br>
+          Without a doubt, a return trip is inevitable. There is so much more to discover and experience, leaving me with a resolute desire to revisit Corsica in the future.
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post6-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post6')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post6-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post6')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="post6-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <iframe class="w3-light-grey" width="100%" style="aspect-ratio: 16/9; margin: 0;" src="https://www.youtube.com/embed/8gbWHEAxaGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post5.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post5_title"><!-- title here --></b></h3>
+        <h5><span data-i18n="travel_post5_infos"><!-- infos here --></span> <span class="w3-opacity" data-i18n="travel_post5_date"><!-- date here --></span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post5_description">
+          <!-- description here -->
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post5-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post5')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post5-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post5')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="post5-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-half">
+          <img src="../assets/img/hobbies/Travel/post5/1.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post5/3.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-half">
+          <img src="../assets/img/hobbies/Travel/post5/2.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post5/4.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post4.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post4_title"><!-- title here --></b></h3>
+        <h5><span data-i18n="travel_post4_infos"><!-- infos here --></span> <span class="w3-opacity" data-i18n="travel_post4_date"><!-- date here --></span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post4_description">
+          <!-- description here -->
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post4-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post4')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post4-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post4')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="post4-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post4/1.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post4/4.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post4/2.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post4/5.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post4/3.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post4/6.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post3.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post3_title"><!-- title here --></b></h3>
+        <h5><span data-i18n="travel_post3_infos"><!-- infos here --></span> <span class="w3-opacity" data-i18n="travel_post3_date"><!-- date here --></span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post3_description">
+          <!-- description here -->
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post3-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post3')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post3-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post3')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="post3-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-half">
+          <img src="../assets/img/hobbies/Travel/post3/1.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-half">
+          <img src="../assets/img/hobbies/Travel/post3/2.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post2.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post2_title"><!-- title here --></b></h3>
+        <h5><span data-i18n="travel_post2_infos"><!-- infos here --></span> <span class="w3-opacity" data-i18n="travel_post2_date"><!-- date here --></span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post2_description">
+          <!-- description here -->
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post2-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post2')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post2-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post2')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="post2-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post2/1.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post2/4.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post2/2.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post2/5.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post2/3.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post2/6.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="../assets/img/hobbies/Travel/post1.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 class="uppercase"><b data-i18n="travel_post1_title"><!-- title here --></b></h3>
+        <h5><span data-i18n="travel_post1_infos"><!-- infos here --></span> <span class="w3-opacity" data-i18n="travel_post1_date"><!-- date here --></span></h5>
+      </div>
+  
+      <div class="w3-container">
+        <p data-i18n="travel_post1_description">
+          <!-- description here -->
+        </p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button id="post1-btn-more" class="w3-button w3-padding-large w3-white w3-border" style="display: block;" onClick="ShowDetails('post1')"><b class="uppercase" data-i18n="seemore">SEE MORE ></b></button></p>
+            <p><button id="post1-btn-less" class="w3-button w3-padding-large w3-white w3-border" style="display: none;" onClick="HideDetails('post1')"><b class="uppercase" data-i18n="seeless">See less ></b></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="post1-content" class="w3-row" style="display:none; margin-bottom: 128px">
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post1/1.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post1/4.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post1/2.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post1/5.jpg" style="width:100%">
+        </div>
+      
+        <div class="w3-third">
+          <img src="../assets/img/hobbies/Travel/post1/3.jpg" style="width:100%">
+          <img src="../assets/img/hobbies/Travel/post1/6.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <!--<hr>-->
+  <!-- END BLOG ENTRIES -->
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i><span data-i18n="footer">To the top</span></a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.linkedin.com/in/manon-vessiot-b5a054153/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://github.com/ManonVessiot" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://gitlab.com/ManonVessiot" target="_blank"><i class="fa fa-gitlab w3-hover-opacity"></i></a>
+  </div>
+  <p></p>
+</footer>
+ 
+
+
+<script src="../js/navbar.js"></script>
+<script src="../js/seemore.js"></script>
+<script src="../js/languages.js"></script>
+
+
+
+</body>
+</html>

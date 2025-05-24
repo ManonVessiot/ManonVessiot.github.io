@@ -1,0 +1,353 @@
+<!-- TODO : version francaise + detection langue + cookie langue -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Manon Vessiot</title>
+        <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+        <link rel="stylesheet" href="./css/w3.css">
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">-->
+        <link rel="stylesheet" href="./css/fonts-googleapis.css">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/global-style.css">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-white w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars w3-text-white w3-hover-text-black"></i>
+    </a>
+    <a href="#home" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="#about" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="#portfolio" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="#contact" class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-hide-small w3-text-white" onclick="changeLanguage('en')">EN</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="uppercase w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#home" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-home"></i> <span data-i18n="nav_home">Home</span></a>
+    <a href="#about" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-user"></i> <span data-i18n="nav_about">About</span></a>
+    <a href="#portfolio" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-th"></i> <span data-i18n="nav_work">My work</span></a>
+    <a href="#contact" class="uppercase w3-bar-item w3-button w3-text-black" onclick="toggleFunction()"><i class="fa fa-envelope"></i> <span data-i18n="nav_contact">Contact</span></a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('fr')">FR</a>
+    <a class="uppercase w3-bar-item w3-button w3-text-black" onclick="changeLanguage('en')">EN</a>
+  </div>
+</div>
+
+
+
+<!-- First Parallax Image with Logo Text  w3-opacity-min-->
+<div class="bgimg bgimg-cover bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img src="./assets/img/logo.png" class="w3-round w3-image" alt="Logo" width="500" height="333">
+  </div>
+</div>
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center uppercase" data-i18n="title_about">About me</h3>
+  <p class="w3-center"><em data-i18n="subtitle_about">Welcome to Manon's World of Virtual Reality and Beyond!</em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Manon Vessiot</b>&emsp;||&emsp;<a href="./cv.html" target="_blank"><i class="fa fa-file-text-o w3-margin-right"></i><span data-i18n="resume_about">Resume</span></a></p><br>
+      <img src="./assets/img/cv-profil.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p data-i18n="description_about">
+        I'm Manon, a <b class="w3-text-indigo">computer engineer</b> specializing in <b class="w3-text-indigo">VR</b> and <b class="w3-text-indigo">AR</b>. Working at the <a href="https://www.univ-amu.fr/" target="_blank"><b class="w3-text-indigo">University of Aix-Marseille</b></a> in the virtual reality center of the Mediterranean (<a href="https://www.crvm.eu/" target="_blank"><b class="w3-text-indigo">CRVM</b></a>), I create captivating experiences across <b class="w3-text-indigo">web, mobile, desktop, and headsets</b>. From immersive landscapes to lifelike avatars, I push the boundaries of technology to transport users into extraordinary digital realms.
+        <br><br>
+        <b class="w3-text-indigo">Photography</b> and <b class="w3-text-indigo">videography</b> are my passions, capturing the beauty of the world and telling compelling stories. When not immersed in pixels, I embark on exhilarating <b class="w3-text-indigo">hiking</b> adventures, finding inspiration in nature's serenity. <b class="w3-text-indigo">Traveling</b> broadens my horizons, infusing authenticity into my work.
+        <br><br>
+        <b class="w3-text-indigo">Sports</b> like <b class="w3-text-indigo">parachuting</b> and <b class="w3-text-indigo">paragliding</b> provide an adrenaline rush, reminding me of the thrill of breaking boundaries. <b class="w3-text-indigo">Video games</b> and <b class="w3-text-indigo">movies</b> fuel my imagination, influencing my creative endeavors.
+      </p>
+    </div>
+  </div>
+  <p class="w3-center" data-i18n="conclusion_about">
+    Join me as we explore the boundless possibilities of virtual reality, celebrate visual arts, and embark on thrilling adventures.<br>
+    <b class="w3-text-indigo">Welcome to my world!</b>
+  </p>
+  <br>
+  <p class="w3-center">
+    <em data-i18n="hobbies_intro">Here are some of my hobbies.<br> Click on the images for more details.</em>
+  </p>
+
+
+
+  <!-- HOBBIES - Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3 w3-padding">
+      <img id="Hobbies/Hiking" src="./assets/img/hobbies/Hiking.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Hiking">
+      <p data-i18n="H_hiking">Hiking</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Hobbies/Travel" src="./assets/img/hobbies/Travel.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Travel">
+      <p data-i18n="H_travel">Travel</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Hobbies/Motorcycle" src="./assets/img/hobbies/motocycle.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Motorcycle">
+      <p data-i18n="H_motocycle">Motorcycle</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Hobbies/Parachute" src="./assets/img/hobbies/parachute.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Parachute">
+      <p data-i18n="H_parachute">Parachute</p>
+    </div>
+  </div>
+    
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3 w3-padding">
+      <img id="Hobbies/Paragliding" src="./assets/img/hobbies/paragliding.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Paragliding">
+      <p data-i18n="H_paragliding">Paragliding</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Hobbies/Diving" src="./assets/img/hobbies/diving.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Diving">
+      <p data-i18n="H_diving">Diving</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Hobbies/AudioVisual" src="./assets/img/hobbies/AudioVisual.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Audio-Visual">
+      <p data-i18n="H_audiovisual">Audio-Visual</p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Hobbies/Origami" src="./assets/img/hobbies/Origami.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Origami & Kirigami">
+      <p data-i18n="H_origamikirigami">Origami & Kirigami</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Second Parallax Image with Portfolio Text  w3-opacity-min -->
+<div class="bgimg bgimg-section bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="uppercase w3-xxlarge w3-text-white w3-wide" data-i18n="title_work">My work</span>
+  </div>
+</div>
+
+
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48" fill="none" ><rect width="12" height="12" fill="white" fill-opacity="0.01"/><path d="M5 16H43C43.5523 16 44 16.4477 44 17V39C44 39.5523 43.5523 40 43 40H30L24.0083 34.0013L18 40H5C4.44772 40 4 39.5523 4 39V17C4 16.4477 4.44772 16 5 16Z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><path d="M14 32C16.2091 32 18 30.2091 18 28C18 25.7909 16.2091 24 14 24C11.7909 24 10 25.7909 10 28C10 30.2091 11.7909 32 14 32Z" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M34 32C36.2091 32 38 30.2091 38 28C38 25.7909 36.2091 24 34 24C31.7909 24 30 25.7909 30 28C30 30.2091 31.7909 32 34 32Z" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M6 10H42H6Z" fill="none"/><path d="M6 10H42" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span><br> 
+    <span data-i18n="work1">Virtual reality</span>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-augmented-reality" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 8v-2a2 2 0 0 1 2 -2h2" /> <path d="M4 16v2a2 2 0 0 0 2 2h2" /> <path d="M16 4h2a2 2 0 0 1 2 2v2" /> <path d="M16 20h2a2 2 0 0 0 2 -2v-2" /> <path d="M12 12.5l4 -2.5" /> <path d="M8 10l4 2.5v4.5l4 -2.5v-4.5l-4 -2.5z" /> <path d="M8 10v4.5l4 2.5" /> </svg>
+    </span><br>
+    <span data-i18n="work2">Augmented reality</span>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">
+      <i class="fa fa-cubes"></i>
+    </span><br>
+    <span data-i18n="work3">3D simulator</span>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">
+      <i class="fa fa-gamepad"></i>
+    </span><br>
+    <span data-i18n="work4">2D/3D/360 serious game</span>
+  </div>
+</div>
+
+
+
+<!-- Container (Work Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="uppercase w3-center" data-i18n="subtitle_work">What do I do ?</h3>
+  <p data-i18n="description_work">
+    As a computer engineer specialized in VR and AR, my work revolves around utilizing cutting-edge technology, designing immersive experiences, developing applications across platforms, and pushing the boundaries of what is possible in virtual and augmented reality. I strive to create memorable and transformative experiences that captivate users and shape the future of this rapidly evolving field.
+  </p>
+  <p class="w3-center w3-padding"><em data-i18n="conclusion_work">Here are some of my latest personal work.<br> Click on the images for more details.</em></p><br>
+
+  <!-- WORK Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <!--
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/AugmentedBarjac" src="./assets/img/work/AugmentedBarjac.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Augmented Barjac">
+      <div class="w3-light-grey">
+        <!-<div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:1%">1%</div>->
+        <div class="w3-container w3-padding-xsmall w3-light-grey w3-center" style="width:100%">0%</div>
+      </div>
+      <p>
+        Augmented Barjac!!
+      </p>
+    </div>
+    -->
+    <!--
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/AugmentedSolarSystem" src="./assets/img/work/AugmentedSolarSystem.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Augmented Solar System">
+      <div class="w3-light-grey">
+        <!-<div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:1%">1%</div>->
+        <div class="w3-container w3-padding-xsmall w3-light-grey w3-center" style="width:100%">0%</div>
+      </div>
+      <p>
+        Augmented Solar System!!
+      </p>
+    </div>
+  -->
+    
+    <!--
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/Simulator" src="./assets/img/work/Simulator.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Simulator">
+      <div class="w3-light-grey">
+        <!-<div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:1%">1%</div>->
+        <div class="w3-container w3-padding-xsmall w3-light-grey w3-center" style="width:100%">0%</div>
+      </div>
+      <p>
+        Simulator!!
+      </p>
+    </div>
+  -->
+    
+    <!--
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/SeriousGame" src="./assets/img/work/Seriousgame.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Serious game">
+      <div class="w3-light-grey">
+        <!-<div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:1%">1%</div>->
+        <div class="w3-container w3-padding-xsmall w3-light-grey w3-center" style="width:100%">0%</div>
+      </div>
+      <p>
+        Serious game!!
+      </p>
+    </div>
+  </div>
+-->
+
+    <!--
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/EscapeGameVR" src="./assets/img/work/EscapegameVR.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Escape game VR">
+      <div class="w3-light-grey">
+        <!-<div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:1%">1%</div>->
+        <div class="w3-container w3-padding-xsmall w3-light-grey w3-center" style="width:100%">0%</div>
+      </div>
+      <p>
+        Escape game VR!!
+      </dpiv>
+    </div>
+  -->
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/TypingDeeper" src="./assets/img/work/TypingDeeper.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Le Bonimenteur">
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:50%">50%</div>
+      </div>
+      <p>
+        Typing Deeper
+      </p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/Bonimenteur" src="./assets/img/work/lebonimenteur.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Le Bonimenteur">
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p>
+        Le Bonimenteur
+      </p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/BowlingVR" src="./assets/img/work/BowlingVR.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Bowling VR">
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+      <p>
+        Bowling VR
+      </p>
+    </div>
+
+    <div class="w3-col m3 w3-padding">
+      <img id="Work/GuessColor" src="./assets/img/work/GuessColorVR.jpg" style="width:100%" onclick="onClickImage(this)" class="mv-hover-pointer w3-opacity-min w3-hover-opacity-off" alt="Guess objects color in VR">
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-xsmall w3-dark-grey w3-center" style="width:100%">100%</div>
+      </div>
+      <p>
+        Guess colors
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <a href="https://github.com/ManonVessiot" target="_blank" class="w3-padding-large" style="margin-top:100px"><i class="fa fa-github w3-hover-opacity"></i> <span data-i18n="seemore_work">See more</span></a>
+    <a href="https://gitlab.com/ManonVessiot" target="_blank" class="w3-padding-large" style="margin-top:100px"><i class="fa fa-gitlab w3-hover-opacity"></i> <span data-i18n="seemore_work">See more</span></a>
+  </div>
+</div>
+
+
+
+<!-- Third Parallax Image with Portfolio Text  w3-opacity-min-->
+<div class="bgimg bgimg-section bgimg-3 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="uppercase w3-xxlarge w3-text-white w3-wide" data-i18n="title_contact">Contact</span>
+  </div>
+</div>
+
+
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <p class="w3-center"><em data-i18n="subtitle_contact">I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="./assets/img/AMU 3D.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Marseille, France<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> +33 631410141<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> manon.vessiot@hotmail.com<br>
+      </div>
+      <p data-i18n="conclusion_contact">Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note.</p>
+      <a class="uppercase w3-button w3-black w3-right w3-section" href="mailto:manon.vessiot@hotmail.com?subject=message from your website">
+        <i class="fa fa-paper-plane"></i> <span data-i18n="SendMessage_contact">Send message</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i><span data-i18n="footer">To the top</span></a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.linkedin.com/in/manon-vessiot-b5a054153/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://github.com/ManonVessiot" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://gitlab.com/ManonVessiot" target="_blank"><i class="fa fa-gitlab w3-hover-opacity"></i></a>
+  </div>
+  <p></p>
+</footer>
+ 
+
+
+<script src="./js/index.js"></script>
+<script src="./js/navbar.js"></script>
+<script src="./js/languages.js"></script>
+
+
+
+</body>
+</html>
