@@ -1,22 +1,25 @@
 {
-    "nav_home": "Home",
-    "nav_about": "About",
-    "nav_work": "My work",
-    "nav_contact": "Contact",
-
-    "typingdeeper_description": "Typing Deeper is an application made for a game jam : Brackeys Game Jam 2023.2. The first version was made in 3-4 days for the game jam, and I am now improving it.<br>I added the use of FMOD to manage the audio of the game and I'm working on remplacing all the art (images, tilemaps...) by my own arts.<br><br>The player has to write word as fast as possible, without errors, to kill the creatures trying to hurt him.",
-    "typingdeeper_conclusion": "Here is a demonstration:",
-
-    "bonimenteur_tryapp": "Try app",
-    "bonimenteur_description": "Le Bonimenteur is an application designed by my brother Romain and myself. I first developed it on Unity and made it available on Google Store. But not having the possibility to give access to people using Apple devices, I decided to develop it in web, allowing access to any device with a browser.<br><br>This game is made for 3 players minimum. The principle is to debate on a subject, without giving too many details, because among the players hides one or more liars who do not have the subject. These liars must pretend to know the subject by debating it with others. The goal of liars is not to be unmasked and to find the subject. As for the other players, they must unmask the liars without making them understand what this debate is about.<br><br>Thus, players can discuss more or less serious subjects, such as glue hours. Is it really useful? Are we for or against? ... Go ahead, <a href=\"https://manonvessiot.github.io/lebonimenteurgame/\" target=\"_blank\">try</a>!",
-    "bonimenteur_conclusion": "Go ahead, <a href=\"https://manonvessiot.github.io/lebonimenteurgame/\" target=\"_blank\">try</a>!",
-
-    "bowlingvr_description": "At the 2019 French Days of Graphic Computing and Virtual Reality (<b>JF.IG.RV</b>), visitors had the opportunity to experience virtual reality through Polytech Marseille stand, the computer engineering school I attended. During this event, I developed two virtual reality applications. The first application focused on education, providing an immersive learning experience. The second application was oriented towards simulation and gaming, offering a virtual bowling experience. Allow me to introduce you to this final one.",
-    "bowlingvr_conclusion": "Demonstration coming soon !",
-
-    "guesscolor_description1": "At the 2019 French Days of Graphic Computing and Virtual Reality (<b>JF.IG.RV</b>), visitors had the opportunity to experience virtual reality through Polytech Marseille stand, the computer engineering school I attended. During this event, I developed two virtual reality applications: one focused on simulation and gaming, while this one was designed for educational purposes.",
-    "guesscolor_description2": "Within a room, the user finds themselves surrounded by various objects whose colors remain unknown. The objective is to correctly position each object within the square that corresponds to its actual color. To aid in this task, the user has access to three switches that can alter the color of the room's lighting, enabling them to switch between red, green, and blue lights. As a result, certain objects may exhibit unique appearances based on the <b>additive synthesis principle</b>. For instance, a magenta object will appear black under green light, red under red light, and blue under blue light.<br><br>Here is a demonstration:",
-
-    "footer": "To the top"
-  }
-  
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_work": "My work",
+  "nav_contact": "Contact",
+  "typingdeeper_description": "Typing Deeper is an application made for a game jam : Brackeys Game Jam 2023.2. The first version was made in 3-4 days for the game jam, and I am now improving it.<br>I added the use of FMOD to manage the audio of the game and I'm working on remplacing all the art (images, tilemaps...) by my own arts.<br><br>The player has to write word as fast as possible, without errors, to kill the creatures trying to hurt him.",
+  "typingdeeper_conclusion": "Here is a demonstration:",
+  "bonimenteur_tryapp": "Try app",
+  "bonimenteur_description": "Le Bonimenteur is an application designed by my brother Romain and myself. I first developed it on Unity and made it available on Google Store. But not having the possibility to give access to people using Apple devices, I decided to develop it in web, allowing access to any device with a browser.<br><br>This game is made for 3 players minimum. The principle is to debate on a subject, without giving too many details, because among the players hides one or more liars who do not have the subject. These liars must pretend to know the subject by debating it with others. The goal of liars is not to be unmasked and to find the subject. As for the other players, they must unmask the liars without making them understand what this debate is about.<br><br>Thus, players can discuss more or less serious subjects, such as glue hours. Is it really useful? Are we for or against? ... Go ahead, <a href=\"https://manonvessiot.github.io/lebonimenteurgame/\" target=\"_blank\">try</a>!",
+  "bonimenteur_conclusion": "Go ahead, <a href=\"https://manonvessiot.github.io/lebonimenteurgame/\" target=\"_blank\">try</a>!",
+  "BlackPrompt_tryapp": "Try app",
+  "BlackPrompt_description": "BlackPrompt is a collection of short, interactive text adventures.<br>In each story, you wake up in an unfamiliar place. To escape, you’ll need to explore your surroundings, examine objects, solve puzzles, and enter the right commands at the right time.<br>Gameplay is entirely text-based. Type instructions like go north, examine skull, use key, or combine stone door to progress through the story.<br>Each adventure is self-contained and designed to be completed in just a few minutes. The settings may change, but one thing is always true: you’re trapped somewhere... and there’s a way out.",
+  "BlackPrompt_conclusion": "Demonstration coming soon !",
+  "Memories_description": "An intimate journey through memories.<br>Memories is a virtual reality experience created for someone special. Guided by a small robot, you explore a world suspended in time. Using your hands, catch floating polaroids that trigger memories — videos, images, sounds… Each photo reveals a fragment of a story, a shared moment, an emotion.",
+  "Memories_conclusion": "Demonstration coming soon !",
+  "Mnemos_description": "When memories come to life on paper.<br>This augmented reality app extends the world of Memories. Custom-made printed drawings, created for a loved one, trigger video, sound, or image memories when scanned with the app. Each illustration becomes a doorway to an intimate moment, a cherished memory, an emotion to relive.",
+  "Mnemos_conclusion": "Demonstration coming soon !",
+  "WBTD_description": "In What’s Behind the Door?, you play as a character who wakes up outside their body. Before you stand three mysterious doors, each holding a challenge you must overcome. Will you choose the right door and return to your body before it’s too late?",
+  "WBTD_conclusion": "Demonstration coming soon !",
+  "bowlingvr_description": "At the 2019 French Days of Graphic Computing and Virtual Reality (<b>JF.IG.RV</b>), visitors had the opportunity to experience virtual reality through Polytech Marseille stand, the computer engineering school I attended. During this event, I developed two virtual reality applications. The first application focused on education, providing an immersive learning experience. The second application was oriented towards simulation and gaming, offering a virtual bowling experience. Allow me to introduce you to this final one.",
+  "bowlingvr_conclusion": "Demonstration coming soon !",
+  "guesscolor_description1": "At the 2019 French Days of Graphic Computing and Virtual Reality (<b>JF.IG.RV</b>), visitors had the opportunity to experience virtual reality through Polytech Marseille stand, the computer engineering school I attended. During this event, I developed two virtual reality applications: one focused on simulation and gaming, while this one was designed for educational purposes.",
+  "guesscolor_description2": "Within a room, the user finds themselves surrounded by various objects whose colors remain unknown. The objective is to correctly position each object within the square that corresponds to its actual color. To aid in this task, the user has access to three switches that can alter the color of the room's lighting, enabling them to switch between red, green, and blue lights. As a result, certain objects may exhibit unique appearances based on the <b>additive synthesis principle</b>. For instance, a magenta object will appear black under green light, red under red light, and blue under blue light.<br><br>Here is a demonstration:",
+  "footer": "To the top"
+}
