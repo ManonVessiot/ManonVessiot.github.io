@@ -14,13 +14,8 @@ function setLanguagePreference(lang) {
 function updateContent(langData) {
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
-    if (key == null) element.innerHTML = "key null";
-    else {
-      if (langData[key] == null) element.innerHTML = "langData[key] null";
-      else {
-        element.innerHTML = langData[key];
-      }
-    }
+
+    element.innerHTML = langData[key];
   });
 }
 
